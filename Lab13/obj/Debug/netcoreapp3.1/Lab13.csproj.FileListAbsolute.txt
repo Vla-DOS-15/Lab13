@@ -1,0 +1,35 @@
+D:\_LabWorks\C#\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.exe
+D:\_LabWorks\C#\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.deps.json
+D:\_LabWorks\C#\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.runtimeconfig.json
+D:\_LabWorks\C#\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.runtimeconfig.dev.json
+D:\_LabWorks\C#\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.dll
+D:\_LabWorks\C#\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.pdb
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.csproj.AssemblyReference.cache
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.fMain.resources
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.fProcessor.resources
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.csproj.GenerateResource.cache
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.GeneratedMSBuildEditorConfig.editorconfig
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.AssemblyInfoInputs.cache
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.AssemblyInfo.cs
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.csproj.CoreCompileInputs.cache
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.dll
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.pdb
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.genruntimeconfig.cache
+D:\_LabWorks\C#\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.Properties.Resources.resources
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.exe
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.deps.json
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.runtimeconfig.json
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.runtimeconfig.dev.json
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.dll
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\bin\Debug\netcoreapp3.1\Lab13.pdb
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.fCar.resources
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.fMain.resources
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.Properties.Resources.resources
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.csproj.GenerateResource.cache
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.GeneratedMSBuildEditorConfig.editorconfig
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.AssemblyInfoInputs.cache
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.AssemblyInfo.cs
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.csproj.CoreCompileInputs.cache
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.dll
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.pdb
+D:\NUWM\3 семестр\Programming\Lab sivirin\Lab13\Lab13\obj\Debug\netcoreapp3.1\Lab13.genruntimeconfig.cache
