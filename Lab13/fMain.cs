@@ -69,23 +69,23 @@ namespace Lab13
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Car processor = new Car();
+            Car car = new Car();
 
-            fCar ft = new fCar(processor);
+            fCar ft = new fCar(car);
             if (ft.ShowDialog() == DialogResult.OK)
             {
-                bindSrcCar.Add(processor);
+                bindSrcCar.Add(car);
             }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            Car processor = (Car)bindSrcCar.List[bindSrcCar.Position];
+            Car car = (Car)bindSrcCar.List[bindSrcCar.Position];
 
-            fCar fp = new fCar(processor);
+            fCar fp = new fCar(car);
             if (fp.ShowDialog() == DialogResult.OK)
             {
-                bindSrcCar.List[bindSrcCar.Position] = processor;
+                bindSrcCar.List[bindSrcCar.Position] = car;
             }
         }
 
@@ -130,11 +130,11 @@ namespace Lab13
                 sw = new StreamWriter(saveFileDialog.FileName, false, Encoding.UTF8);
                 try
                 {
-                    foreach (Car processor in bindSrcCar.List)
+                    foreach (Car car in bindSrcCar.List)
                     {
-                        sw.Write(processor.Make + "\t" + processor.Model + "\t" +
-                        processor.Color + "\t" + processor.YearOfCreation+ "\t" + 
-                        processor.Price + "\t" + processor.KeyWorkingOrder + "\t\n");
+                        sw.Write(car.Make + "\t" + car.Model + "\t" +
+                        car.Color + "\t" + car.YearOfCreation+ "\t" + 
+                        car.Price + "\t" + car.KeyWorkingOrder + "\t\n");
                     }
                 }
                 catch (Exception ex)
@@ -151,7 +151,7 @@ namespace Lab13
 
         private void btnSaveAsBinary_Click(object sender, EventArgs e)
         {
-            saveFileDialog.Filter = "Файли даних (*.processors)|*.towns|All files (*.*)|*.*";
+            saveFileDialog.Filter = "Файли даних (*.cars)|*.towns|All files (*.*)|*.*";
             saveFileDialog.Title = "Зберегти дані у бінарному форматі";
             saveFileDialog.InitialDirectory = Application.StartupPath;
             BinaryWriter bw;
@@ -160,14 +160,14 @@ namespace Lab13
                 bw = new BinaryWriter(saveFileDialog.OpenFile());
                 try
                 {
-                    foreach (Car processor in bindSrcCar.List)
+                    foreach (Car car in bindSrcCar.List)
                     {
-                        bw.Write(processor.Make);
-                        bw.Write(processor.Model);
-                        bw.Write(processor.Color);
-                        bw.Write(processor.YearOfCreation);
-                        bw.Write(processor.Price);
-                        bw.Write(processor.KeyWorkingOrder);
+                        bw.Write(car.Make);
+                        bw.Write(car.Model);
+                        bw.Write(car.Color);
+                        bw.Write(car.YearOfCreation);
+                        bw.Write(car.Price);
+                        bw.Write(car.KeyWorkingOrder);
                     }
                 }
                 catch (Exception ex)
@@ -199,9 +199,9 @@ namespace Lab13
                     while ((s = sr.ReadLine()) != null)
                     {
                         string[] split = s.Split('\t');
-                        Car processor = new Car(split[0], split[1], split[2],
+                        Car car = new Car(split[0], split[1], split[2],
                         uint.Parse(split[3]), int.Parse(split[4]), bool.Parse(split[5]));
-                        bindSrcCar.Add(processor);
+                        bindSrcCar.Add(car);
                     }
                 }
                 catch (Exception ex)
@@ -228,23 +228,23 @@ namespace Lab13
                 br = new BinaryReader(openFileDialog.OpenFile());
                 try
                 {
-                    Car processor; 
+                    Car car; 
                     while (br.BaseStream.Position < br.BaseStream.Length)
                     {
-                        processor = new Car();
+                        car = new Car();
                         for (int i = 1; i <= 6; i++)
                         {
                             switch (i)
                             {
-                                case 1: processor.Make = br.ReadString(); break;
-                                case 2: processor.Model = br.ReadString(); break;
-                                case 3: processor.Color= br.ReadString(); break;
-                                case 4: processor.YearOfCreation= br.ReadUInt32(); break;
-                                case 5: processor.Price = br.ReadInt32(); break;
-                                case 6: processor.KeyWorkingOrder = br.ReadBoolean(); break;
+                                case 1: car.Make = br.ReadString(); break;
+                                case 2: car.Model = br.ReadString(); break;
+                                case 3: car.Color= br.ReadString(); break;
+                                case 4: car.YearOfCreation= br.ReadUInt32(); break;
+                                case 5: car.Price = br.ReadInt32(); break;
+                                case 6: car.KeyWorkingOrder = br.ReadBoolean(); break;
                             }
                         }
-                        bindSrcCar.Add(processor);
+                        bindSrcCar.Add(car);
                     }
                 }
                 catch (Exception ex)

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NUWM\\3 семестр\\Programming\\Lab sivirin\\Lab13\\Lab13\\Lab13.csproj",
+      "projectUniqueName": "C:\\Lab13\\Lab13\\Lab13.csproj",
       "projectName": "Lab13",
-      "projectPath": "D:\\NUWM\\3 семестр\\Programming\\Lab sivirin\\Lab13\\Lab13\\Lab13.csproj",
+      "projectPath": "C:\\Lab13\\Lab13\\Lab13.csproj",
       "packagesPath": "C:\\Users\\vbohd\\.nuget\\packages\\",
-      "outputPath": "D:\\NUWM\\3 семестр\\Programming\\Lab sivirin\\Lab13\\Lab13\\obj\\",
+      "outputPath": "C:\\Lab13\\Lab13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vbohd\\AppData\\Roaming\\NuGet\\NuGet.Config",
